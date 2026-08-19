@@ -1,5 +1,9 @@
 # Federated Platform Architecture Review
 
+<p align="center">
+  <img src="assets/federated-platform-architecture-review-social-preview.svg" alt="Federated Platform Architecture Review portfolio cover" width="1000">
+</p>
+
 **Enterprise / Solution Architecture review case — distributed platform governance, control-plane separation and operational architecture**
 
 This repository presents a synthetic public case study based on a real architecture-review pattern: a distributed enterprise platform was functionally well described, but the architecture did not yet define how a fleet of central, regional and isolated nodes would be governed, versioned, monitored, upgraded and operated as one platform.
