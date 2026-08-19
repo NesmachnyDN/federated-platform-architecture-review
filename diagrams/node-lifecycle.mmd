@@ -1,0 +1,14 @@
+stateDiagram-v2
+    [*] --> Planned
+    Planned --> Registered
+    Registered --> Provisioned
+    Provisioned --> InService
+    InService --> Maintenance
+    Maintenance --> InService
+    InService --> Autonomous
+    Autonomous --> Reconciliation
+    Reconciliation --> InService
+    InService --> Degraded
+    Degraded --> InService
+    InService --> Retired
+    Retired --> [*]

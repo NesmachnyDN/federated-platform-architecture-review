@@ -1,0 +1,15 @@
+{
+  "title": "Federated Platform Architecture Review",
+  "url": "https://github.com/NesmachnyDN/federated-platform-architecture-review",
+  "category": "Enterprise & Solution Architecture",
+  "featured": true,
+  "order": 12,
+  "summary": "Architecture review case showing how a federated enterprise platform was strengthened by separating control and execution planes, defining node profiles, lifecycle/version governance, bounded autonomy, reconciliation and operational responsibility.",
+  "tags": ["Architecture Review", "Distributed Systems", "Control Plane", "Architecture Governance"],
+  "ru": {
+    "title": "Архитектурное ревью распределённой платформы",
+    "category": "Корпоративная архитектура и архитектура решений",
+    "summary": "Кейс архитектурного ревью: выделение контура управления из прикладной конфигурации, типовые профили узлов, управление жизненным циклом и версиями, автономность, синхронизация и эксплуатационная ответственность.",
+    "tags": ["Архитектурное ревью", "Распределённые системы", "Контур управления", "Architecture Governance"]
+  }
+}

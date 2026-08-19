@@ -1,0 +1,20 @@
+flowchart TB
+    CP[Control Plane\nManagement Node]
+    C[Central Execution Node]
+    R[Regional Execution Node]
+    I[Isolated / Dedicated Node]
+    BUS[Business Data & Events]
+    OBS[Telemetry / Audit / Security Events]
+
+    CP -->|desired state, policies, versions, lifecycle| C
+    CP -->|desired state, policies, versions, lifecycle| R
+    CP -->|approved management channel| I
+
+    C <-->|business exchange| BUS
+    R <-->|business exchange| BUS
+    I <-->|approved business exchange| BUS
+
+    C --> OBS
+    R --> OBS
+    I --> OBS
+    OBS --> CP
